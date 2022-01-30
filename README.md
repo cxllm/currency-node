@@ -29,7 +29,7 @@ convert(
 
 This returns a promise containing values with these types:
 
-```ts
+```js
 {
 	from: string; // the currency converted from
 	to: string; // the currency converted to
@@ -62,7 +62,7 @@ rate(
 
 This returns a promise containing values with these types:
 
-```ts
+```js
 {
 	from: string;
 	to: string;
