@@ -27,17 +27,15 @@ convert(
 
 ```
 
-This returns a promise containing values with these types:
+This returns a promise with an object containing values with these types:
 
-```js
-{
-	from: string; // the currency converted from
-	to: string; // the currency converted to
-	amount: number; // the amount converted
-	rate: number; // the rate of the currency
-	conversion: number; // the actual conversion
-	updated: Date; // the time it was last updated (a JavaScript Date object)
-}
+```ts
+from: string; // the currency converted from
+to: string; // the currency converted to
+amount: number; // the amount converted
+rate: number; // the exchange rate
+conversion: number; // the conversion of the amount
+updated: Date; // the time it was last updated (a JavaScript Date object)
 ```
 
 #### Example
@@ -60,15 +58,13 @@ rate(
 );
 ```
 
-This returns a promise containing values with these types:
+This returns a promise with an object containing values with these types:
 
-```js
-{
-	from: string;
-	to: string;
-	rate: number;
-	updated: Date;
-}
+```ts
+from: string; //the currency converted from
+to: string; // the currency converted to
+rate: number; // the exchange rate
+updated: Date; // the time it was last updated (a JavaScript Date object)
 ```
 
 #### Example
