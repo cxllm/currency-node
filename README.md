@@ -6,6 +6,7 @@ This is a package that uses the [exchangerate.host](https://exchangerate.host) A
 
 For installing this, please run:
 `npm install @cxllm/currency`
+
 Or, if you prefer the yarn package manager
 `yarn install @cxllm/currency`
 
