@@ -19,7 +19,12 @@ This is the method used for converting between 2 currencies with a specific valu
 The arguments are as follows:
 
 ```js
-convert(/*<the amount to convert (number)>*/, "<the base currency>", "<the currency to convert to>")
+convert(
+    amount: number, // the amount to convert
+    from: string, // the currency to convert from
+    to: string // the currency to convert to
+)
+
 ```
 
 This returns a promise containing values with these types:
@@ -49,7 +54,10 @@ This is the method for finding the exchange rate between two currencies
 The syntax is as follows:
 
 ```js
-rate("<the base currency>", "<the currency to convert to>");
+rate(
+    from: string, // the currency to convert from
+    to: string // the currency to convert to
+);
 ```
 
 This returns a promise containing values with these types:
