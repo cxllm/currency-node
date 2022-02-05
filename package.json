@@ -1,6 +1,6 @@
 {
 	"name": "@cxllm/currency",
-	"version": "1.0.0-3",
+	"version": "1.0.1",
 	"description": "A currency converter api that uses exchangerate.host",
 	"main": "dist/index.js",
 	"scripts": {
@@ -13,9 +13,13 @@
 	"keywords": [
 		"currency",
 		"money",
-		"exchange",
+		"exchange rate",
 		"rate",
-		"exchange"
+		"exchange",
+		"api",
+		"conversion",
+		"convert",
+		"converter"
 	],
 	"author": "cxllm",
 	"license": "ISC",
