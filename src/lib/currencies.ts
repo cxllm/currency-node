@@ -24,4 +24,4 @@ export default async function convert(): Promise<Currency[]> {
 	}
 	return currencies;
 }
-convert().then((c) => console.log(c.slice(0, 3)));
+
